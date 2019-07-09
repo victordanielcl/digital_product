@@ -1,0 +1,73 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33333%;
+}
+
+.col-2 {
+    width: 16.66666%;
+}
+
+.col-3 {
+    width: 24.99999%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-5 {
+    width: 41.66666%;
+}
+
+.col-6 {
+    width: 49.99999%;
+}
+
+.col-7 {
+    width: 58.33333%;
+}
+
+.col-8 {
+    width: 66.66666%;
+}
+
+.col-9 {
+    width: 74.99999%;
+}
+
+.col-10 {
+    width: 83.33333%;
+}
+
+.col-11 {
+    width: 91.66666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    .row {
+        display: inherit;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+    /*----------------------------------------- VENTAS*/
+    .modulo_pago img {
+        widows: 100px;
+    }
+}
